@@ -1,0 +1,55 @@
+export const homeData = {
+    key: 'home',
+    title: "As mais Ouvidas",
+    items: [
+      { type: 'track', title: 'Música X', thumbnail: '/assets/img/musica-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'track', title: 'Música X', thumbnail: '/assets/img/musica-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'track', title: 'Música X', thumbnail: '/assets/img/musica-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'track', title: 'Música X', thumbnail: '/assets/img/musica-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'track', title: 'Música X', thumbnail: '/assets/img/musica-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'track', title: 'Música X', thumbnail: '/assets/img/musica-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'track', title: 'Música X', thumbnail: '/assets/img/musica-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' }
+    ]
+  }
+
+  export const albumData = {
+    key: 'album',
+    title: "Álbuns Recomendados",
+    items: [
+      { type: 'album', title: 'Álbum Y', thumbnail: '/assets/img/album-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'album', title: 'Álbum Y', thumbnail: '/assets/img/album-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'album', title: 'Álbum Y', thumbnail: '/assets/img/album-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'album', title: 'Álbum Y', thumbnail: '/assets/img/album-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'album', title: 'Álbum Y', thumbnail: '/assets/img/album-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'album', title: 'Álbum Y', thumbnail: '/assets/img/album-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'album', title: 'Álbum Y', thumbnail: '/assets/img/album-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' }
+    ]
+  }
+
+  export const playlistData = {
+    key: 'playlist',
+    title: "Playlists Recomendadas",
+    items: [
+      { type: 'playlist', title: 'Playlist Z', thumbnail: '/assets/img/playlist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'playlist', title: 'Playlist Z', thumbnail: '/assets/img/playlist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'playlist', title: 'Playlist Z', thumbnail: '/assets/img/playlist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'playlist', title: 'Playlist Z', thumbnail: '/assets/img/playlist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'playlist', title: 'Playlist Z', thumbnail: '/assets/img/playlist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'playlist', title: 'Playlist Z', thumbnail: '/assets/img/playlist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'playlist', title: 'Playlist Z', thumbnail: '/assets/img/playlist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' }
+    ]
+  }
+
+  export const artistlistData = {
+    key: 'artist',
+    title: "Playlists Recomendadas",
+    items: [
+      { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
+      { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' }
+    ]
+  }
