@@ -1,8 +1,17 @@
+import { artistlistData as chuchu } from './App.mock';
+import { Container, ParentContent, MainContent, SideBar, TopBar, SearchBar } from './components/Layout';
+
 function App() {
   return (
-    <>
-      Projeto React Deezer (Limpeza e organização inicial do projeto.)
-    </>
+    <Container>
+      <SideBar data={chuchu} />
+      <ParentContent>
+        <TopBar>
+          <SearchBar />
+        </TopBar>
+        <MainContent data={chuchu} />
+      </ParentContent>
+    </Container>
   );
 }
 

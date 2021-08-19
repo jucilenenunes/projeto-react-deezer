@@ -42,7 +42,7 @@ export const homeData = {
 
   export const artistlistData = {
     key: 'artist',
-    title: "Playlists Recomendadas",
+    title: "Arstistas Recomendados",
     items: [
       { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
       { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
