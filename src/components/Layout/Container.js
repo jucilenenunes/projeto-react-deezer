@@ -1,10 +1,8 @@
 import { StyledContainer } from "./styles";
-// import OverLoading from './OverLoading'
 
-function Container({children, loading}) {
+function Container({children}) {
     return (
         <>
-            {/* <OverLoading loading={loading} /> */}
             <StyledContainer>{children}</StyledContainer>
         </>
     );

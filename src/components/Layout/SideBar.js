@@ -1,6 +1,14 @@
+import { useSelector } from "react-redux";
 import { StyledSideBar, StyledSideBarLogo, StyledSideBarMenu } from "./styles";
+import { store, actionGetMainTracks, actionGetSuggestsAlbuns, actionGetSuggestsPlaylists, actionGetSuggestsArtists, actionGetPrefereds } from '../../reducers'
+import { mainTracksService, suggestsAlbunsService, suggestsPlaylistsService, suggestsArtistService, getPreferedMusicService } from '../../services';
 
-function SideBar({data}) {
+function SideBar() {
+    const key = useSelector((state) => state.key);
+    const onClick = (actionDispatch, actionService) => {
+        let items = actionService();
+        store.dispatch(actionDispatch({ items }));
+    }
     return (
         <StyledSideBar>
             <StyledSideBarLogo>
@@ -8,15 +16,16 @@ function SideBar({data}) {
             </StyledSideBarLogo>
             <StyledSideBarMenu>
                 <ul>
-                    <li><a href="/#teste" className={data.key === "home" ? "ativa" : null}>Home</a></li>
-                    <li><a href="/#teste" className={data.key === "album" ? "ativa" : null}>Álbuns</a></li>
-                    <li><a href="/#teste" className={data.key === "playlist" ? "ativa" : null}>Playlists</a></li>
-                    <li><a href="/#teste" className={data.key === "artist" ? "ativa" : null}>Artistas</a></li>
+                    <li><button onClick={() => {onClick(actionGetMainTracks, mainTracksService)}} className={key === "home" ? "ativa" : null}>Home</button></li>
+                    <li><button onClick={() => {onClick(actionGetSuggestsAlbuns, suggestsAlbunsService)}} className={key === "album" ? "ativa" : null}>Álbuns</button></li>
+                    <li><button onClick={() => {onClick(actionGetSuggestsPlaylists, suggestsPlaylistsService)}} className={key === "playlist" ? "ativa" : null}>Playlists</button></li>
+                    <li><button onClick={() => {onClick(actionGetSuggestsArtists, suggestsArtistService)}} className={key === "artist" ? "ativa" : null}>Artistas</button></li>
+                    <li><button onClick={() => {onClick(actionGetPrefereds, getPreferedMusicService)}} className={key === "prefereds" ? "ativa" : null}>Favoritas</button></li>
                 </ul>
             </StyledSideBarMenu>
         </StyledSideBar>
     );
 }
   
-  export default SideBar;
+export default SideBar;
   

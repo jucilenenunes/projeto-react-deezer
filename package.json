@@ -6,12 +6,17 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "@types/styled-components": "^5.1.12",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2",
     "styled-components": "^5.3.0",
-    "web-vitals": "^1.1.2"
+    "axios": "^0.21.1",
+    "redux": "^4.1.1",
+    "react-redux": "^7.2.4"
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,6 +29,11 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "<rootDir>/.jest.transform.js"
+    }
   },
   "browserslist": {
     "production": [

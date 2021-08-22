@@ -1,10 +1,10 @@
 import { StyledMainContent } from "./styles";
 import MainContentItems from './MainContentItems';
 
-function MainContent({data}) {
+function MainContent() {
     return (
         <StyledMainContent>
-            <MainContentItems data={data} />
+            <MainContentItems />
         </StyledMainContent>
     );
 }

@@ -40,7 +40,7 @@ export const homeData = {
     ]
   }
 
-  export const artistlistData = {
+  export const artistData = {
     key: 'artist',
     title: "Arstistas Recomendados",
     items: [
@@ -51,5 +51,16 @@ export const homeData = {
       { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
       { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' },
       { type: 'artist', title: 'Artist W', thumbnail: '/assets/img/artist-x.png', link: '#', description: 'Descrição total da música falando algo sobre a letra ou sobre o autor (compositor).' }
+    ]
+  }
+
+  export const searchedData = {
+    key: 'searched',
+    title: 'xcvxcvx',
+    items: [
+      ...homeData.items,
+      ...albumData.items,
+      ...playlistData.items,
+      ...playlistData.items
     ]
   }
